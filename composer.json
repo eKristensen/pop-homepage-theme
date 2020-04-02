@@ -2,12 +2,6 @@
   "name": "ekristensen/sydney-child",
   "version": "1.0.0",
   "description": "Theme for POP Homepage",
-  "repositories":[
-      {
-          "type":"composer",
-          "url":"https://wpackagist.org"
-      }
-  ],
   "keywords": ["wordpress", "theme", "pop"],
   "homepage": "https://github.com/eKristensen/pop-homepage-theme",
   "license": "MIT",
@@ -22,7 +16,5 @@
     "composer/installers": "*",
     "wpackagist-theme/sydney": "^1.7",
     "wpackagist-plugin/sydney-toolbox": "^1.7"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
