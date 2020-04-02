@@ -1,0 +1,56 @@
+/*
+ Theme Name:   P. O. Pedersen Kollegiet
+ Theme URI:    https://pop.k-net.dk/
+ Description:  Sydney Child theme fitted for use by P. O. Pedersen Kollegiet
+ Author:       Emil Kristensen
+ Author URI:   https://ekx.dk
+ Template:     sydney
+ Version:      1.0.0
+ License:      MIT
+ License URI:  https://opensource.org/licenses/MIT
+ Tags:         dorm, pop, dark
+ Text Domain:  sydneychild
+*/
+
+#mainnav-mobi ul > li > a {
+    font-size: 16px;
+}
+
+.site-title {
+        margin: 0 !important;
+	font-weight: 600;
+	font-family: "Raleway", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 24px 0 5px !important;
+}
+
+.roll-button:hover {
+    background-color: #33485d !important;
+}
+
+@media print {
+.site-title, .site-header, .float-header {
+	position: absolute !important;
+}
+  .mainnav, .sydney-hero-area, .widget_search, .go-top show {
+    display: none !important;
+  }
+
+.page-wrap, .content-wrapper {
+    padding-bottom: 0px !important;
+}
+
+.widget_nav_menu, .widget_text {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+}
+
+#header-widget-area {
+	background-color: lightyellow;
+	text-align: center;
+	font-size: larger;
+	color: black;
+}
