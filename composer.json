@@ -2,12 +2,12 @@
   "name": "ekristensen/sydney-child",
   "version": "1.0.0",
   "description": "Theme for POP Homepage",
-    "repositories":[
-        {
-            "type":"composer",
-            "url":"https://wpackagist.org"
-        }
-    ]
+  "repositories":[
+      {
+          "type":"composer",
+          "url":"https://wpackagist.org"
+      }
+  ],
   "keywords": ["wordpress", "theme", "pop"],
   "homepage": "https://github.com/eKristensen/pop-homepage-theme",
   "license": "MIT",
