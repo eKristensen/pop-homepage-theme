@@ -22,5 +22,7 @@
     "composer/installers": "*",
     "wpackagist-theme/sydney": "^1.7",
     "wpackagist-plugin/sydney-toolbox": "^1.7"
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
